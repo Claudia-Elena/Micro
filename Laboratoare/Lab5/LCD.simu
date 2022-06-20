@@ -1,0 +1,36 @@
+<circuit type="simulide_0.4" animate="0" reactStep="50" noLinAcc="5" speed="1000000">
+ 
+Ground-3: 
+<item valLabelx="0" hflip="1" y="-220" labelrot="0" objectName="Ground-3" valLabely="0" itemtype="Ground" vflip="1" id="Ground-80" valLabRot="0" labelx="-16" x="-436" Show_id="false" rotation="0" labely="8"/>
+ 
+Hd44780-2: 
+<item valLabelx="0" hflip="1" y="-252" Rows="2" labelrot="0" objectName="Hd44780-2" valLabely="0" itemtype="Hd44780" vflip="1" id="Hd44780-121" valLabRot="0" labelx="70" Cols="16" x="-428" Show_id="true" rotation="-360" labely="-82"/>
+ 
+atmega16-1: 
+<item valLabely="0" labelx="0" Auto_Load="false" labelrot="0" id="atmega16-2" rotation="0" itemtype="AVR" objectName="atmega16-1" valLabelx="0" y="-216" Logic_Symbol="false" Show_id="true" Program="test_LCD/test_LCD/Debug/test_LCD.hex" vflip="1" eeprom="255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255,255" Mhz="8" labely="-20" Init_gdb="false" x="-288" hflip="1" valLabRot="0"/>
+ 
+Connector-4: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-67" enodeid="Circ_eNode-5" rotation="0" itemtype="Connector" startpinid="Hd44780-2-PinRW" objectName="Connector-4" pointList="-404,-244,-436,-244,-436,-236" valLabelx="0" y="-244" Show_id="false" endpinid="Ground-3-Gnd" vflip="1" labely="-24" x="-404" hflip="1" valLabRot="0"/>
+ 
+Connector-6: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-7" enodeid="Circ_eNode-7" rotation="0" itemtype="Connector" startpinid="Hd44780-2-dataPin7" objectName="Connector-6" pointList="-332,-244,-332,-80,-296,-80" valLabelx="0" y="-244" Show_id="false" endpinid="atmega16-1-PD3" vflip="1" labely="-24" x="-332" hflip="1" valLabRot="0"/>
+ 
+Connector-10: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-9" enodeid="Circ_eNode-11" rotation="0" itemtype="Connector" startpinid="Hd44780-2-dataPin5" objectName="Connector-10" pointList="-348,-244,-348,-96,-296,-96" valLabelx="0" y="-244" Show_id="false" endpinid="atmega16-1-PD1" vflip="1" labely="-24" x="-348" hflip="1" valLabRot="0"/>
+ 
+Connector-12: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-10" enodeid="Circ_eNode-13" rotation="0" itemtype="Connector" startpinid="Hd44780-2-dataPin4" objectName="Connector-12" pointList="-356,-244,-356,-104,-296,-104" valLabelx="0" y="-244" Show_id="false" endpinid="atmega16-1-PD0" vflip="1" labely="-24" x="-356" hflip="1" valLabRot="0"/>
+ 
+Connector-14: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-11" enodeid="Circ_eNode-15" rotation="0" itemtype="Connector" startpinid="Hd44780-2-PinRS" objectName="Connector-14" pointList="-412,-244,-412,-72,-296,-72" valLabelx="0" y="-244" Show_id="false" endpinid="atmega16-1-PD4" vflip="1" labely="-24" x="-412" hflip="1" valLabRot="0"/>
+ 
+Connector-16: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-12" enodeid="Circ_eNode-17" rotation="0" itemtype="Connector" startpinid="Hd44780-2-PinEn" objectName="Connector-16" pointList="-396,-244,-396,-64,-296,-64" valLabelx="0" y="-244" Show_id="false" endpinid="atmega16-1-PD5" vflip="1" labely="-24" x="-396" hflip="1" valLabRot="0"/>
+ 
+Connector-8: 
+<item valLabely="0" labelx="-16" labelrot="0" id="Connector-8" enodeid="enode-8" rotation="0" itemtype="Connector" startpinid="Hd44780-2-dataPin6" objectName="Connector-8" pointList="-340,-244,-340,-88,-296,-88" valLabelx="0" y="-244" Show_id="false" endpinid="atmega16-1-PD2" vflip="1" labely="-24" x="-340" hflip="1" valLabRot="0"/>
+ 
+PlotterWidget-18: 
+<item width="200" frameGeometry="" MaxVolt="500" contextMenuPolicy="1" whatsThis="" windowFilePath="" geometry="" itemtype="Plotter" childrenRect="" layoutDirection="0" visible="false" minimized="false" accessibleDescription="" normalGeometry="" locale="" MinVolt="-500" x="0" size="" sizeHint="" updatesEnabled="true" windowIcon="" childrenRegion="" maximumHeight="200" toolTip="" statusTip="" styleSheet="" minimumHeight="200" windowModified="false" sizeIncrement="" focus="false" height="200" toolTipDuration="-1" frameSize="" Tracks="1" accessibleName="" maximumSize="" focusPolicy="0" objectName="PlotterWidget-18" mouseTracking="false" inputMethodHints="0" windowTitle="" minimumSize="" rect="" windowIconText="" palette="" font="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0" windowOpacity="1" maximized="false" fullScreen="false" Scale="1" enabled="true" isActiveWindow="true" maximumWidth="1000" acceptDrops="false" pos="" minimumSizeHint="" sizePolicy="" baseSize="" cursor="" windowModality="0" autoFillBackground="false" modal="false" minimumWidth="200" y="0"/>
+ 
+</circuit>
